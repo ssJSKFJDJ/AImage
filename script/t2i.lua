@@ -1,4 +1,4 @@
-local api = "http://261090.proxy.nscc-gz.cn:8888/"
+local api = "https://ai-api.baimianxiao.cn/t2i"
 local raw = msg.fromMsg:sub(#"/t2i" + 1)
 local tags = raw:sub(#"/t2i" + 1) or "Baka"
 local json = require("json")
