@@ -4,7 +4,7 @@
 msg_order = {}
 
 function getImage(msg)
-    local api = "http://261090.proxy.nscc-gz.cn:8888/"
+    local api = "https://ai-api.baimianxiao.cn/t2i"
     -- local tags = raw:match("[,%sA-Za-z0-9%{%}%(%)%[%]]+[^;]?") or "Baka"
     -- local kv = raw:match(";(.*)") or "Default Config"
     local json = require("json")
